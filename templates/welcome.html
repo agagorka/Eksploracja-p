@@ -1,0 +1,27 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <h1>Welcome to my database</h1>
+    <p>If you're interested in the details,
+    <a href="http://www.nationmaster.com/">here</a> are more facts about international statistics.
+    </p>
+    <p>Source code is available
+    <a href="https://github.com/agagorka/Eksploracja-p">here</a>.
+    </p>
+  </div>
+
+  <div class="page-header">
+    <h1>Chose the next step</h1>
+  </div>
+  <p>
+    <a href="/raw" class="btn btn-success" role="button">See raw data</a>
+    <a href="/result" class="btn btn-primary" role="button">Review results</a>
+  </p>
+
+
+{% endblock %}
+
